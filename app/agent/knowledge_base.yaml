@@ -1,0 +1,226 @@
+faq:
+  - category: phishing
+    question: "Comment reconnaître un email de phishing?"
+    answer: "Vérifiez l'expéditeur, méfiez-vous des urgences artificielles, ne cliquez pas sur des liens suspects et signalez l'email à la sécurité."
+  - category: phishing
+    question: "Que faire si j'ai cliqué sur un lien suspect?"
+    answer: "Déconnectez-vous du réseau si nécessaire, changez votre mot de passe, activez la MFA et contactez immédiatement l'équipe cybersécurité."
+  - category: incident
+    question: "Comment signaler un phishing ou incident de sécurité?"
+    answer: "Signalez immédiatement l'équipe sécurité. Fournissez l'email, les actions effectuées et tout identifiant compromis. NE SUPPRIMEZ PAS l'email ou les preuves."
+  - category: incident
+    question: "Qui contacter en cas d'incident critique?"
+    answer: "Contactez l'équipe Sécurité/GRC par email ou téléphone (voir escalade rapide). Pour incident confirmé: appelez le numéro d'urgence disponible 24/7."
+  - category: tools
+    question: "Quels outils de sécurité dois-je utiliser?"
+    answer: "Authentification: SSO avec MFA obligatoire. VPN: pour accès ressources internes. Partage fichiers sensibles: plateforme chiffrée selon politique. Gestionnaire MDP: outil fourni par l'organisation."
+  - category: passwords
+    question: "Qu'est-ce qu'un mot de passe robuste?"
+    answer: "Au moins 12 caractères, mélange de majuscules/minuscules, chiffres et symboles, sans informations personnelles. Utilisez le gestionnaire fourni. Changez-le tous les 90 jours."
+  - category: mfa
+    question: "Pourquoi activer l'authentification multifacteur (MFA)?"
+    answer: "La MFA ajoute une couche de sécurité, réduisant fortement le risque d'accès non autorisé même si votre mot de passe est compromis. Obligatoire dans la plupart des organisations modernes."
+  - category: vpn
+    question: "Dois-je utiliser le VPN?"
+    answer: "Utilisez le VPN fourni pour accéder aux ressources internes et chiffrer le trafic sur les réseaux non fiables. Obligatoire en télétravail."
+  - category: updates
+    question: "Pourquoi les mises à jour sont-elles importantes?"
+    answer: "Elles corrigent des vulnérabilités et améliorent la sécurité. Installez-les rapidement sur vos appareils. Les patchs critiques doivent être appliqués dans les 48h."
+  - category: data
+    question: "Comment manipuler des données sensibles?"
+    answer: "Appliquez le principe du moindre privilège, chiffrez en transit et au repos, et ne partagez qu'avec les personnes autorisées. Respectez la politique de classification des données."
+  - category: incident
+    question: "Comment signaler un incident?"
+    answer: "Collectez les éléments (logs, captures) sans les altérer. Contactez l'équipe sécurité immédiatement. Créez un ticket dans le système GRC si disponible. Notifiez votre manager."
+  - category: phishing
+    question: "Vérifier l'expéditeur d'un email — comment?"
+    answer: "Passez la souris sur le nom de l'expéditeur pour voir l'adresse réelle. Vérifiez que le domaine (@company.com) est correct. Méfiez-vous des domaines similaires. Signalez tout doute à la sécurité."
+  - category: mfa
+    question: "Qu'est-ce que la MFA ou l'authentification multifacteur?"
+    answer: "La MFA (Multi-Factor Authentication) ajoute une 2e vérification après le mot de passe: un code SMS, une app mobile ou une clé de sécurité. Cela rend le compte beaucoup plus difficile à pirater même si le mot de passe est compromis."
+  - category: phishing
+    question: "Règles de sécurité pour les emails — lesquelles?"
+    answer: "1) Vérifiez l'expéditeur et le domaine. 2) Méfiez-vous des urgences artificielles. 3) Ne cliquez pas sur des liens non vérifiés. 4) N'ouvrez pas les pièces jointes inattendues. 5) En cas de doute, contactez l'équipe sécurité."
+  - category: data
+    question: "Comment partager des fichiers sensibles en toute sécurité?"
+    answer: "Utilisez uniquement les outils homologués (plateforme interne chiffrée). Chiffrez en transit et au repos. Limitez l'accès aux personnes vraiment autorisées. Enregistrez qui accède à quoi. Utilisez l'authentification forte (MFA). Signalez à la privacy si doute."
+  - category: passwords
+    question: "Qu'est-ce qu'un gestionnaire de mots de passe et pourquoi l'utiliser?"
+    answer: "Un gestionnaire stocke vos mots de passe de façon chiffrée et sécurisée. Il vous permet d'utiliser des mots de passe uniques, très complexes pour chaque service, sans les mémoriser. Cela réduit drastiquement le risque de réutilisation et de vol."
+  - category: updates
+    question: "Importance des mises à jour de sécurité — pourquoi?"
+    answer: "Les mises à jour corrigent des failles connues exploitées par des attaquants. Patchs critiques = 48h max. Patchs normaux = 2 semaines max. Redémarrez après chaque patch critique. Non-conformité = audit et risque réglementaire."
+  - category: passwords
+    question: "Créer un mot de passe solide"
+    answer: "Au moins 12 caractères, mélange de majuscules/minuscules, chiffres et symboles, sans informations personnelles. Utilisez le gestionnaire fourni. Changez-le tous les 90 jours pour rester conforme."
+  - category: phishing
+    question: "J'ai cliqué sur un lien douteux"
+    answer: "Déconnectez-vous du réseau si nécessaire, changez votre mot de passe immédiatement, activez la MFA et contactez l'équipe cybersécurité. Collectez des preuves (screenshot, logs) et signalez via le système GRC."
+  - category: vpn
+    question: "Comment activer le VPN"
+    answer: "Téléchargez le client VPN depuis le portail IT. Lancez l'application, entrez vos identifiants (SSO + MFA). Connectez-vous avant d'accéder à toute ressource interne. Vérifiez que le statut montre 'Connecté'. Fermez après utilisation."
+  - category: incident
+    question: "Que faire en cas d'incident"
+    answer: "1) Restez calme et collectez les preuves. 2) Déconnectez-vous du réseau si critique. 3) Contactez immédiatement l'équipe sécurité (24/7). 4) Ne supprimez rien. 5) Notifiez votre manager. 6) Suivez la procédure d'escalade."
+  - category: mfa
+    question: "Qu'est-ce que la MFA"
+    answer: "La MFA (Multi-Factor Authentication) ajoute une 2e vérification après le mot de passe: un code SMS, une app mobile ou une clé de sécurité. Cela rend le compte beaucoup plus difficile à pirater même si le mot de passe est compromis. Obligatoire."
+  - category: phishing
+    question: "Règles de sécurité email"
+    answer: "1) Vérifiez l'expéditeur et le domaine. 2) Méfiez-vous des urgences artificielles. 3) Ne cliquez pas sur des liens non vérifiés. 4) N'ouvrez pas les pièces jointes inattendues. 5) En cas de doute, contactez l'équipe sécurité immédiatement."
+  - category: data
+    question: "Comment partager des fichiers sensibles"
+    answer: "Utilisez uniquement les outils homologués (plateforme interne chiffrée). Chiffrez en transit et au repos. Limitez l'accès aux personnes vraiment autorisées. Enregistrez qui accède à quoi. Utilisez l'authentification forte (MFA). Signalez à la privacy si doute."
+  - category: phishing
+    question: "Vérifier l'expéditeur d'un email"
+    answer: "Passez la souris sur le nom de l'expéditeur pour voir l'adresse réelle. Vérifiez que le domaine (@company.com) est correct. Méfiez-vous des domaines similaires. Signalez tout doute à la sécurité. Ne cliquez jamais sur un lien d'un expéditeur douteux."
+  - category: phishing
+    question: "Que faire avec un email de phishing"
+    answer: "Ne cliquez pas, ne répondez pas, ne téléchargez rien. Signalez-le immédiatement à l'équipe sécurité. Utilisez le bouton de signalement si disponible dans votre email. Conservez l'email comme preuve. Autres peuvent être en danger — alertez-les."
+  - category: passwords
+    question: "Gestionnaire de mots de passe"
+    answer: "Un outil chiffré fourni par l'organisation qui stocke et remplit vos mots de passe de façon sécurisée. Accessible depuis le portail IT. Utilisez une masterkey forte (MFA). Permet des mots de passe uniques et complexes sans mémorisation."
+  - category: updates
+    question: "Mises à jour de sécurité"
+    answer: "Les mises à jour corrigent des failles exploitées par des attaquants. Patchs critiques = 48h max. Patchs normaux = 2 semaines max. Redémarrez après chaque patch critique. Vérifiez que le patch s'est bien appliqué. Non-conformité = audit et risque réglementaire."
+
+tips:
+  - "Astuce: Soyez vigilant face aux pièces jointes inattendues — vérifiez toujours la source avant d'ouvrir."
+  - "Astuce: Utilisez le gestionnaire de mots de passe fourni pour éviter la réutilisation."
+  - "Astuce: Activez la MFA pour vos comptes critiques — elle est obligatoire."
+  - "Astuce: Verrouillez votre poste quand vous vous absentez."
+  - "Astuce: En cas de doute, appelez immédiatement l'équipe sécurité."
+  - "Astuce: Vérifiez toujours le domaine réel en passant la souris sur l'expéditeur."
+  - "Astuce: Les SMS de phishing peuvent imiter des banques ou services — ne cliquez jamais."
+  - "Astuce: Un VPN sur Wi-Fi public, c'est obligatoire avant d'accéder à l'email ou aux ressources."
+  - "Astuce: Changez votre mot de passe tous les 90 jours pour rester conforme."
+  - "Astuce: Les pièces jointes .exe, .zip inattendues = suspicion immédiate, signalez."
+
+escalation:
+  contacts:
+    - name: "Équipe Sécurité / GRC"
+      email: "security@company.com"
+      phone: "+33 1 XX XX XX 00"
+      availability: "24/7 pour incidents critiques"
+    - name: "SOC (Security Operations Centre)"
+      email: "soc@company.com"
+      phone: "+33 1 XX XX XX 00"
+      availability: "24/7"
+    - name: "Support IT"
+      email: "support@company.com"
+      phone: "+33 1 XX XX XX 00"
+      availability: "Lun-Ven 8h-18h"
+
+guidance:
+  general:
+    why: "La cybersécurité est l'affaire de tous. Chaque action compte pour protéger vos données et celles de l'organisation."
+    best_practices:
+      - "Vérifiez toujours l'expéditeur des emails avant de cliquer."
+      - "Utilisez des mots de passe robustes et uniques pour chaque service."
+      - "Activez la MFA sur tous les comptes qui le permettent."
+      - "Maintenez vos logiciels à jour avec les derniers patchs de sécurité."
+      - "Utilisez le VPN sur les réseaux non fiables."
+    common_mistakes:
+      - "Cliquer sur des liens sans vérifier leur destination."
+      - "Réutiliser le même mot de passe sur plusieurs services."
+      - "Ignorer les mises à jour de sécurité."
+      - "Partager des informations sensibles sans chiffrement."
+    resources:
+      - "Formation cybersécurité: obligatoire annuelle"
+      - "Portail IT: accès aux outils et guides"
+      - "Équipe sécurité: security@company.com"
+
+  phishing_incident:
+    why: "Le phishing est un vecteur d'attaque fréquent pouvant conduire au vol d'identifiants et à des compromissions majeures. Réagir vite limite l'impact."
+    best_practices:
+      - "Ne cliquez jamais sur des liens non vérifiés."
+      - "Vérifiez l'expéditeur et le domaine réel (domaines de confiance uniquement)."
+      - "Signalez immédiatement à l'équipe sécurité."
+    common_mistakes:
+      - "Ignorer un sentiment de doute et cliquer quand même."
+      - "Entrer ses identifiants sur une page inconnue."
+      - "Ouvrir des pièces jointes inattendues sans vérification."
+    resources:
+      - "Ligne d'urgence sécurité: consultez l'escalade rapide ci-dessous"
+      - "Formulaire de signalement: portail interne"
+      - "Formation phishing: obligatoire annuelle"
+  password_security:
+    why: "Des mots de passe robustes et uniques réduisent drastiquement les accès non autorisés. Conformité réglementaire l'exige."
+    best_practices:
+      - "Utiliser le gestionnaire de mots de passe fourni gratuitement."
+      - "Activer la MFA sur tous les comptes (obligatoire)."
+      - "Renouveler tous les 90 jours (politique interne)."
+    common_mistakes:
+      - "Réutilisation du même mot de passe."
+      - "Utiliser des informations personnelles (date de naissance, prénom)."
+      - "Partager des mots de passe ou les stocker en clair."
+    resources:
+      - "Gestionnaire MDP: portail d'accès fourni"
+      - "Politique mots de passe: intranet/GRC"
+  mfa:
+    why: "La MFA ajoute une deuxième barrière, essentielle contre l'usurpation d'identité. Obligatoire."
+    best_practices:
+      - "Préférer l'app d'authentification aux SMS (plus sûr)."
+      - "Conserver des codes de secours en lieu sûr."
+      - "Renouveler les codes de secours tous les 6 mois."
+    common_mistakes:
+      - "Désactiver la MFA pour le confort."
+      - "Partager des codes d'authentification."
+    resources:
+      - "Setup MFA: portail d'authentification"
+      - "Support: équipe IT"
+  vpn:
+    why: "Le VPN chiffre le trafic et sécurise l'accès aux ressources internes. Obligatoire hors des bureaux."
+    best_practices:
+      - "Activer le VPN avant d'accéder à toute ressource interne."
+      - "Fermer la session VPN après usage."
+      - "Utiliser uniquement sur réseaux de confiance."
+    common_mistakes:
+      - "Se connecter sans VPN sur Wi-Fi public."
+      - "Oublier de fermer la session VPN."
+    resources:
+      - "VPN Setup Guide: intranet"
+      - "Télécharger client VPN: portail IT"
+      - "Support VPN: équipe IT"
+  updates:
+    why: "Les mises à jour corrigent des failles exploitées par des attaquants. Non-conformité = risque réglementaire."
+    best_practices:
+      - "Installer les patchs critiques dans les 48h."
+      - "Patchs normaux: dans les 2 semaines."
+      - "Redémarrer après une mise à jour critique."
+    common_mistakes:
+      - "Reporter indéfiniment les patchs."
+      - "Ignorer les notifications de mise à jour."
+    resources:
+      - "Actualités sécurité: intranet"
+      - "Calendrier des patchs: planification IT"
+  data_sensitivity:
+    why: "La bonne manipulation des données sensibles protège les utilisateurs et l'organisation. Conformité réglementaire obligatoire."
+    best_practices:
+      - "Appliquer le moindre privilège d'accès."
+      - "Chiffrer en transit (HTTPS/TLS) et au repos."
+      - "Limiter le partage aux personnes autorisées uniquement."
+    common_mistakes:
+      - "Envoyer des données sensibles par email non chiffré."
+      - "Stocker des données sans restriction d'accès."
+      - "Partager des identifiants ou tokens."
+    resources:
+      - "Politique de classification des données: intranet"
+      - "Outils homologués: conformité IT"
+      - "Support données sensibles: équipe privacy"
+  incident_reporting:
+    why: "Un signalement rapide améliore la réponse et limite l'impact. Notification obligatoire pour incidents critiques."
+    best_practices:
+      - "Collecter les éléments sans les altérer (logs, captures, emails)."
+      - "Contacter l'équipe sécurité IMMÉDIATEMENT (ne pas attendre)."
+      - "Créer un ticket GRC si disponible."
+      - "Notifier votre manager."
+    common_mistakes:
+      - "Supprimer des preuves par réflexe."
+      - "Attendre avant de signaler (chaque minute compte)."
+      - "Discuter publiquement de l'incident."
+    resources:
+      - "Procédure d'incident 24/7: voir escalade rapide"
+      - "Système de ticketing: intranet/GRC"
+      - "Guide réponse à incident: documentation interne"
+
