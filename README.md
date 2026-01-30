@@ -175,17 +175,3 @@ Les contributions sont les bienvenues ! Pour contribuer :
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
-
-## 👤 Auteur
-
-Créé avec ❤️ pour améliorer la sensibilisation à la cybersécurité.
-
-## 📞 Support
-
-Pour toute question ou problème :
-- Ouvrez une issue sur GitHub
-- Email : support@example.com
-
----
-
-**Note** : Ce projet est à des fins éducatives et de démonstration. Pour une utilisation en production, ajoutez l'authentification, la validation des entrées et des tests appropriés.
